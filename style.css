@@ -49,11 +49,15 @@ header {
 }
 
 /* Estilo para a seção principal do site */
-section {
+.main-content {
     flex: 1; /* Faz a seção ocupar o espaço restante */
+    display: flex; /* Usamos flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
     padding: 20px; /* Adiciona espaço interno */
     margin: 20px; /* Adiciona espaço externo */
     background-color: white; /* Cor de fundo da seção */
+    height: calc(100vh - 150px); /* Ajusta a altura da seção para a viewport */
 }
 
 /* Estilo para o rodapé */
@@ -62,5 +66,5 @@ footer {
     padding: 10px; /* Adiciona espaço ao redor do conteúdo */
     background-color: #333; /* Cor de fundo do rodapé */
     color: white; /* Cor do texto no rodapé */
-    margin-top: 450px; /* Adiciona espaço acima do rodapé */
+    margin-top: 20px; /* Adiciona espaço acima do rodapé */
 }
