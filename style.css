@@ -57,7 +57,7 @@ header {
     padding: 20px; /* Adiciona espaço interno */
     margin: 20px; /* Adiciona espaço externo */
     background-color: white; /* Cor de fundo da seção */
-    height: calc(70vh - 150px); /* Ajusta a altura da seção para a viewport */
+    height: calc(50vh - 70px); /* Ajusta a altura da seção para a viewport */
 }
 
 /* Estilo para o rodapé */
