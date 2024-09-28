@@ -14,8 +14,43 @@ header {
     padding: 10px; /* Adiciona espaço ao redor do conteúdo */
 }
 
+/* Estilo para o container principal */
+.container {
+    display: flex; /* Permite layout flexível */
+}
+
+/* Estilo para o menu lateral (sidebar) */
+.sidebar {
+    width: 200px; /* Largura do menu */
+    background-color: #333; /* Cor de fundo do menu */
+    padding: 15px; /* Adiciona espaço interno */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove as marcas de lista */
+    padding: 0; /* Remove o preenchimento da lista */
+}
+
+.sidebar li {
+    margin: 10px 0; /* Espaço entre os itens do menu */
+}
+
+.sidebar a {
+    color: white; /* Cor dos links do menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: block; /* Faz os links ocuparem toda a largura do menu */
+    padding: 10px; /* Espaço interno nos links */
+    border-radius: 4px; /* Arredonda os cantos dos links */
+}
+
+/* Efeito ao passar o mouse sobre os links do menu */
+.sidebar a:hover {
+    background-color: #4c63af; /* Cor de fundo ao passar o mouse */
+}
+
 /* Estilo para a seção principal do site */
 section {
+    flex: 1; /* Faz a seção ocupar o espaço restante */
     padding: 20px; /* Adiciona espaço interno */
     margin: 20px; /* Adiciona espaço externo */
     background-color: white; /* Cor de fundo da seção */
